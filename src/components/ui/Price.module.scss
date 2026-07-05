@@ -1,0 +1,23 @@
+.price {
+  align-items: baseline;
+  display: inline-flex;
+  gap: var(--space-2);
+
+  s {
+    color: var(--color-ink-muted);
+    font-size: 0.875rem;
+  }
+
+  strong {
+    color: var(--color-ink);
+    font-size: 1.125rem;
+  }
+}
+
+.start {
+  justify-content: flex-start;
+}
+
+.end {
+  justify-content: flex-end;
+}

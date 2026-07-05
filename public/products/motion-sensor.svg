@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Motion sensor">
+  <rect width="160" height="160" rx="18" fill="#f0ece3"/>
+  <path d="M47 50c0-14 12-26 26-26h14c14 0 26 12 26 26v62c0 13-10 24-24 24H71c-14 0-24-11-24-24V50Z" fill="#fff"/>
+  <path d="M64 74a25 25 0 0 1 32 0M57 62a36 36 0 0 1 46 0M72 88a12 12 0 0 1 16 0" fill="none" stroke="#0f6f5f" stroke-width="6" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Power backup kit">
+  <rect width="160" height="160" rx="18" fill="#f0ece3"/>
+  <rect x="48" y="42" width="64" height="84" rx="14" fill="#4f565c"/>
+  <rect x="66" y="31" width="28" height="14" rx="5" fill="#4f565c"/>
+  <path d="m83 58-18 33h18l-8 25 22-38H79l4-20Z" fill="#dceee9"/>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Graphite video doorbell">
+  <rect width="160" height="160" rx="18" fill="#eee8dd"/>
+  <rect x="55" y="24" width="50" height="112" rx="24" fill="#4f565c"/>
+  <circle cx="80" cy="61" r="18" fill="#101214"/>
+  <circle cx="85" cy="56" r="4" fill="#8ebdb7"/>
+  <circle cx="80" cy="104" r="11" fill="#f6f4ef"/>
+  <path d="M70 104h20" stroke="#0f6f5f" stroke-width="4" stroke-linecap="round"/>
+</svg>

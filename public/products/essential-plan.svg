@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Essential plan">
+  <rect width="160" height="160" rx="18" fill="#f0ece3"/>
+  <rect x="37" y="39" width="86" height="82" rx="14" fill="#fff"/>
+  <path d="M80 54 106 65v18c0 22-15 34-26 39-11-5-26-17-26-39V65l26-11Z" fill="#dceee9"/>
+  <path d="m70 82 7 8 16-18" fill="none" stroke="#0f6f5f" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

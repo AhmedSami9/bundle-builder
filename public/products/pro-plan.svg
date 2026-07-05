@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Pro monitoring plan">
+  <rect width="160" height="160" rx="18" fill="#e8f2ef"/>
+  <circle cx="80" cy="80" r="45" fill="#0f6f5f"/>
+  <path d="M80 42 112 56v24c0 26-18 41-32 47-14-6-32-21-32-47V56l32-14Z" fill="#fff"/>
+  <path d="M66 82h28M80 68v28" stroke="#0f6f5f" stroke-width="8" stroke-linecap="round"/>
+</svg>

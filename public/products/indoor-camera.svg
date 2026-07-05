@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Indoor camera">
+  <rect width="160" height="160" rx="18" fill="#f2eee6"/>
+  <rect x="48" y="38" width="64" height="82" rx="28" fill="#fff"/>
+  <circle cx="80" cy="76" r="25" fill="#0f6f5f"/>
+  <circle cx="80" cy="76" r="12" fill="#151515"/>
+  <circle cx="86" cy="70" r="4" fill="#86d4c8"/>
+  <path d="M62 125h36l12 16H50l12-16Z" fill="#c7bba9"/>
+</svg>

@@ -1,0 +1,68 @@
+.card {
+  display: grid;
+  gap: var(--space-5);
+  grid-template-columns: 150px minmax(0, 1fr);
+  padding: var(--space-5);
+}
+
+.media {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  justify-content: center;
+}
+
+.body {
+  display: grid;
+  gap: var(--space-4);
+  min-width: 0;
+}
+
+.copy {
+  display: grid;
+  gap: var(--space-2);
+
+  h3 {
+    color: var(--color-ink);
+    font-size: 1.125rem;
+    line-height: 1.25;
+    margin: 0;
+  }
+
+  p {
+    color: var(--color-ink-soft);
+    margin: 0;
+  }
+
+  a {
+    color: var(--color-primary);
+    font-size: 0.875rem;
+    font-weight: var(--font-weight-bold);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--color-primary-strong);
+      text-decoration: underline;
+      text-underline-offset: 4px;
+    }
+  }
+}
+
+.purchaseRow {
+  align-items: center;
+  display: flex;
+  gap: var(--space-4);
+  justify-content: space-between;
+}
+
+@media (max-width: 640px) {
+  .card {
+    grid-template-columns: 1fr;
+  }
+
+  .purchaseRow {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "shippingCents": 0,
+  "reviewGroups": [
+    { "id": "cameras", "title": "Cameras" },
+    { "id": "sensors", "title": "Sensors" },
+    { "id": "accessories", "title": "Accessories" },
+    { "id": "plan", "title": "Plan" }
+  ],
+  "steps": [
+    {
+      "id": "cameras",
+      "eyebrow": "STEP 1 OF 4",
+      "title": "Choose your cameras",
+      "icon": "camera",
+      "productIds": ["outdoor-camera", "indoor-camera", "video-doorbell"]
+    },
+    {
+      "id": "plan",
+      "eyebrow": "STEP 2 OF 4",
+      "title": "Choose your plan",
+      "icon": "shield",
+      "productIds": ["essential-plan", "pro-monitoring"]
+    },
+    {
+      "id": "sensors",
+      "eyebrow": "STEP 3 OF 4",
+      "title": "Choose your sensors",
+      "icon": "sensor",
+      "productIds": ["contact-sensor", "motion-sensor", "glass-break-sensor"]
+    },
+    {
+      "id": "protection",
+      "eyebrow": "STEP 4 OF 4",
+      "title": "Add extra protection",
+      "icon": "spark",
+      "productIds": ["extended-protection", "yard-sign", "power-backup"]
+    }
+  ],
+  "products": [
+    {
+      "id": "outdoor-camera",
+      "category": "cameras",
+      "title": "Outdoor Camera",
+      "description": "Weather-ready 2K video with a spotlight, siren, and intelligent motion zones.",
+      "badge": "Best seller",
+      "image": "/products/outdoor-camera-white.svg",
+      "learnMoreUrl": "#outdoor-camera",
+      "maxQuantity": 6,
+      "defaultQuantities": { "white": 2 },
+      "variants": [
+        {
+          "id": "white",
+          "label": "White",
+          "swatchTone": "white",
+          "image": "/products/outdoor-camera-white.svg",
+          "priceCents": 15900,
+          "compareAtCents": 19900
+        },
+        {
+          "id": "black",
+          "label": "Black",
+          "swatchTone": "black",
+          "image": "/products/outdoor-camera-black.svg",
+          "priceCents": 15900,
+          "compareAtCents": 19900
+        }
+      ]
+    },
+    {
+      "id": "indoor-camera",
+      "category": "cameras",
+      "title": "Indoor Camera",
+      "description": "Compact HD camera with privacy shutter, two-way talk, and person detection.",
+      "badge": "New",
+      "image": "/products/indoor-camera.svg",
+      "learnMoreUrl": "#indoor-camera",
+      "priceCents": 7900,
+      "compareAtCents": 9900,
+      "maxQuantity": 6
+    },
+    {
+      "id": "video-doorbell",
+      "category": "cameras",
+      "title": "Video Doorbell",
+      "description": "Wide-angle front door coverage with package alerts and quick replies.",
+      "image": "/products/doorbell-graphite.svg",
+      "learnMoreUrl": "#video-doorbell",
+      "maxQuantity": 2,
+      "defaultQuantities": { "graphite": 1 },
+      "variants": [
+        {
+          "id": "graphite",
+          "label": "Graphite",
+          "swatchTone": "graphite",
+          "image": "/products/doorbell-graphite.svg",
+          "priceCents": 12900,
+          "compareAtCents": 15900
+        },
+        {
+          "id": "sage",
+          "label": "Sage",
+          "swatchTone": "sage",
+          "image": "/products/doorbell-sage.svg",
+          "priceCents": 12900,
+          "compareAtCents": 15900
+        }
+      ]
+    },
+    {
+      "id": "essential-plan",
+      "category": "plan",
+      "title": "Essential Self Monitoring",
+      "description": "Instant alerts, event history, and app controls for every device in your system.",
+      "image": "/products/essential-plan.svg",
+      "learnMoreUrl": "#essential-plan",
+      "priceCents": 990,
+      "compareAtCents": 1490,
+      "maxQuantity": 1
+    },
+    {
+      "id": "pro-monitoring",
+      "category": "plan",
+      "title": "Pro Monitoring",
+      "description": "24/7 emergency dispatch support, cellular backup, and unlimited camera recording.",
+      "badge": "Recommended",
+      "image": "/products/pro-plan.svg",
+      "learnMoreUrl": "#pro-monitoring",
+      "priceCents": 2990,
+      "compareAtCents": 3990,
+      "maxQuantity": 1,
+      "defaultQuantity": 1
+    },
+    {
+      "id": "contact-sensor",
+      "category": "sensors",
+      "title": "Entry Contact Sensor",
+      "description": "Slim magnetic sensors for doors, windows, cabinets, and gates.",
+      "badge": "Bundle value",
+      "image": "/products/contact-sensor.svg",
+      "learnMoreUrl": "#contact-sensor",
+      "priceCents": 2400,
+      "compareAtCents": 3000,
+      "maxQuantity": 12,
+      "defaultQuantity": 4
+    },
+    {
+      "id": "motion-sensor",
+      "category": "sensors",
+      "title": "Motion Sensor",
+      "description": "Room-level motion coverage with pet-friendly sensitivity settings.",
+      "image": "/products/motion-sensor.svg",
+      "learnMoreUrl": "#motion-sensor",
+      "priceCents": 3900,
+      "compareAtCents": 4900,
+      "maxQuantity": 8,
+      "defaultQuantity": 2
+    },
+    {
+      "id": "glass-break-sensor",
+      "category": "sensors",
+      "title": "Glass Break Sensor",
+      "description": "Detects the sound pattern of breaking glass across open living spaces.",
+      "image": "/products/glass-sensor.svg",
+      "learnMoreUrl": "#glass-break-sensor",
+      "priceCents": 3400,
+      "compareAtCents": 4400,
+      "maxQuantity": 8
+    },
+    {
+      "id": "extended-protection",
+      "category": "accessories",
+      "title": "Extra Protection Plan",
+      "description": "Three years of advanced replacement coverage for your full hardware bundle.",
+      "badge": "Peace of mind",
+      "image": "/products/protection-plan.svg",
+      "learnMoreUrl": "#extended-protection",
+      "priceCents": 4900,
+      "compareAtCents": 6900,
+      "maxQuantity": 1,
+      "defaultQuantity": 1
+    },
+    {
+      "id": "yard-sign",
+      "category": "accessories",
+      "title": "Deterrent Yard Sign",
+      "description": "Weatherproof sign and window decals to make your system visible.",
+      "image": "/products/yard-sign.svg",
+      "learnMoreUrl": "#yard-sign",
+      "priceCents": 1900,
+      "compareAtCents": 2400,
+      "maxQuantity": 2
+    },
+    {
+      "id": "power-backup",
+      "category": "accessories",
+      "title": "Power Backup Kit",
+      "description": "Keeps your hub online during outages with a compact rechargeable battery.",
+      "image": "/products/power-backup.svg",
+      "learnMoreUrl": "#power-backup",
+      "priceCents": 5900,
+      "compareAtCents": 7900,
+      "maxQuantity": 2
+    }
+  ]
+}

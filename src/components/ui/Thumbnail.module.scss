@@ -1,0 +1,31 @@
+.thumbnail {
+  align-items: center;
+  background: var(--color-surface-muted);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  display: inline-flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  overflow: hidden;
+
+  img {
+    height: 82%;
+    object-fit: contain;
+    width: 82%;
+  }
+}
+
+.sm {
+  height: 48px;
+  width: 48px;
+}
+
+.md {
+  height: 72px;
+  width: 72px;
+}
+
+.lg {
+  height: 132px;
+  width: 132px;
+}

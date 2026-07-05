@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Contact sensor">
+  <rect width="160" height="160" rx="18" fill="#f0ece3"/>
+  <rect x="48" y="35" width="28" height="90" rx="13" fill="#fff"/>
+  <rect x="86" y="48" width="24" height="64" rx="12" fill="#c7bba9"/>
+  <circle cx="62" cy="104" r="6" fill="#0f6f5f"/>
+</svg>

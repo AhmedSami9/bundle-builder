@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Black outdoor camera">
+  <rect width="160" height="160" rx="18" fill="#e6dccf"/>
+  <path d="M50 57h72a14 14 0 0 1 14 14v30a14 14 0 0 1-14 14H50a26 26 0 0 1 0-52Z" fill="#171717"/>
+  <circle cx="59" cy="86" r="25" fill="#0f6f5f"/>
+  <circle cx="59" cy="86" r="13" fill="#080808"/>
+  <circle cx="64" cy="80" r="5" fill="#7fc8bc"/>
+  <path d="M100 115v23" stroke="#4f565c" stroke-width="8" stroke-linecap="round"/>
+</svg>

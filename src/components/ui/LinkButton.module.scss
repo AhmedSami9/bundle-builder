@@ -1,0 +1,19 @@
+.button {
+  background: transparent;
+  border: 0;
+  color: var(--color-primary);
+  font-weight: var(--font-weight-bold);
+  padding: 0;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+
+  &:hover {
+    color: var(--color-primary-strong);
+  }
+
+  &:focus-visible {
+    border-radius: var(--radius-sm);
+    outline: 3px solid var(--color-primary-soft);
+    outline-offset: 3px;
+  }
+}
