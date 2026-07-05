@@ -70,17 +70,14 @@ export function getSelectedCountForStep(
     }
 
     if (product.variants) {
-      return (
-        total +
-        product.variants.reduce(
-          (variantTotal, variant) =>
-            variantTotal + getQuantityForSelection(state, product.id, variant.id),
-          0,
-        )
+      const hasSelectedVariant = product.variants.some(
+        (variant) => getQuantityForSelection(state, product.id, variant.id) > 0,
       );
+
+      return total + (hasSelectedVariant ? 1 : 0);
     }
 
-    return total + getQuantityForSelection(state, product.id);
+    return total + (getQuantityForSelection(state, product.id) > 0 ? 1 : 0);
   }, 0);
 }
 

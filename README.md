@@ -1,6 +1,6 @@
 # Frontend Take-Home Bundle Builder
 
-A production-minded React prototype for a multi-step home security bundle builder. The experience is data-driven, responsive, persisted through localStorage, and built around centralized bundle state so product cards and the live review panel always stay in sync.
+A React implementation of the Bundle Builder take-home assignment for a multi-step home security bundle builder. The experience is data-driven, responsive, persisted through localStorage, and built around centralized bundle state so product cards and the live review panel always stay in sync.
 
 ## Tech Stack
 
@@ -12,6 +12,7 @@ A production-minded React prototype for a multi-step home security bundle builde
 - Local JSON catalog data
 - localStorage persistence
 - ESLint
+- Vitest
 
 ## Folder Structure
 
@@ -60,6 +61,14 @@ npm run lint
 
 On Windows PowerShell, use `npm.cmd run lint` if script execution policy blocks the npm shim.
 
+## Test
+
+```bash
+npm run test:run
+```
+
+The unit tests focus on bundle utility and business logic. `getSelectedCountForStep` counts distinct selected products, not total quantity.
+
 ## Design Decisions
 
 - The catalog is defined in `src/features/bundle-builder/data/bundleData.json`, keeping steps, products, categories, images, variants, prices, and seeded quantities outside UI components.
@@ -72,11 +81,11 @@ On Windows PowerShell, use `npm.cmd run lint` if script execution policy blocks 
 
 - Context + `useReducer` was chosen over Zustand to keep dependencies minimal while still providing a scalable state boundary.
 - Product imagery is lightweight local SVG artwork to avoid network dependencies and keep the prototype self-contained.
-- The checkout flow is intentionally a simple confirmation alert because payment flow implementation is outside the take-home scope.
+- The checkout flow uses a lightweight toast notification because payment flow implementation is outside the take-home scope.
 
 ## Future Improvements
 
-- Add automated unit tests for selectors and reducer behavior.
+- Add reducer tests and broader edge-case coverage for catalog changes.
 - Add visual regression coverage for desktop and mobile breakpoints.
 - Support coupon codes, taxes, subscription billing intervals, and richer plan comparison.
 - Persist multiple saved systems instead of a single saved configuration.

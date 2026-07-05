@@ -2,7 +2,8 @@
 
 ## 1. Architecture Overview
 
-The app is organized as a feature-based React frontend. Shared UI primitives live in `src/components/ui`, while the bundle builder owns its catalog data, domain types, reducer store, selectors, and composed feature components under `src/features/bundle-builder`.
+The application follows a feature-oriented architecture to keep business logic, UI composition, and state management isolated and easy to scale.
+Shared UI primitives live in `src/components/ui`, while the bundle builder owns its catalog data, domain types, reducer store, selectors, and composed feature components under `src/features/bundle-builder`.
 
 ## 2. Folder Structure Explanation
 
